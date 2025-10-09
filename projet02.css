@@ -1,0 +1,122 @@
+
+body {
+  margin: 0;
+  font-family:'Times New Roman', Times, serif
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+
+.nav1, .nav2 {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+
+.navbar a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #5b7da1;
+}
+
+
+.btn {
+  background-color: #242c34;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+
+.hero{
+   text-align: center;
+
+}
+
+.btnhero  button{
+ background-color: #1b4c1e;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+
+.hero  a{
+     text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  
+}
+
+
+.sfer{
+    text-align: center;
+}
+
+
+
+.box {
+  display: flex;
+  flex-direction: column; /* Empile verticalement pub (haut) et par (bas) */
+  justify-content: space-between; /* Laisse de l’espace entre les deux */
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 250px; /* Important pour forcer les h5 à rester en bas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pub {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-weight: bold;
+  color: #333;
+}
+
+.par {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+h5 {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
